@@ -1,0 +1,36 @@
+/* Menu*/
+.menu{
+    background: #212222;
+}
+.menu ul {
+list-style: none;
+padding: 0;
+width :90%;
+max-width:1000px;
+margin: 20px;
+}
+
+.menu  ul li  {
+display: inline-flex;
+
+}
+
+.menu ul li a{
+    text-decoration:none;
+    color:#FFFFFF;
+    padding: 15px;
+}
+
+li:hover{
+    background:#111111;
+    color:#FFFFFF;
+}
+/* Se inserta logo */
+#logo{
+    display: block;
+    width: 935px;
+    height: 175px;
+    margin: auto;
+
+}
+/*---------------------Fin de encabezado y logo-------------------*/
