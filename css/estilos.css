@@ -7,18 +7,28 @@ list-style: none;
 padding: 0;
 width :90%;
 max-width:1000px;
-margin: auto;
+margin: 20px;
 }
 
 .menu  ul li  {
 display: inline-flex;
-margin: 15px;
+
 }
 
 .menu ul li a{
     text-decoration:none;
+    color:#FFFFFF;
+    padding: 15px;
+}
 
-    background-color:#FFFFFF;
-
+li:hover{
+    background:#111111;
+    color:#FFFFFF;
+}
+#logo{
+    display: block;
+    width: 935px;
+    height: 175px;
+    margin: auto;
 
 }
