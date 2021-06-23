@@ -1,0 +1,24 @@
+/* Menu*/
+.menu{
+    background: #212222;
+}
+.menu ul {
+list-style: none;
+padding: 0;
+width :90%;
+max-width:1000px;
+margin: auto;
+}
+
+.menu  ul li  {
+display: inline-flex;
+margin: 15px;
+}
+
+.menu ul li a{
+    text-decoration:none;
+
+    background-color:#FFFFFF;
+
+
+}
