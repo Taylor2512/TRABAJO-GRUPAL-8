@@ -34,3 +34,13 @@ li:hover{
 
 }
 /*---------------------Fin de encabezado y logo-------------------*/
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
