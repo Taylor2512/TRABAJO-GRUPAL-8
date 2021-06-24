@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 /* Menu*/
 .menu{
     background: #212222;
@@ -25,7 +30,10 @@ li:hover{
     background:#111111;
     color:#FFFFFF;
 }
+<<<<<<< Updated upstream
 /* Se inserta logo */
+=======
+>>>>>>> Stashed changes
 #logo{
     display: block;
     width: 935px;
@@ -33,4 +41,14 @@ li:hover{
     margin: auto;
 
 }
+<<<<<<< Updated upstream
 /*---------------------Fin de encabezado y logo-------------------*/
+=======
+#pie{
+    width: 980px;
+    padding: 15px;
+    
+    margin: auto;
+}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
