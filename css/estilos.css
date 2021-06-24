@@ -1,8 +1,14 @@
 /* Menu*/
+*{/* selector universal*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+  }
 .menu{
     background: #212222;
 }
-.menu ul {
+.menu ul {/*selector por clase*/
 list-style: none;
 padding: 0;
 width :90%;
@@ -14,20 +20,23 @@ margin: 20px;
 display: inline-flex;
 
 }
+a{/*selector de elemento*/
+    text-decoration:none;
+
+}
 
 .menu ul li a{
-    text-decoration:none;
     color:#FFFFFF;
     padding: 15px;
 }
 
-li:hover{
+.nav_li:hover{
     background:#111111;
     color:#FFFFFF;
 }
 /* Se inserta logo */
 
-#logo{
+#logo{/*selector por id*/
     display: block;
     width: 935px;
     height: 175px;
@@ -37,10 +46,69 @@ li:hover{
 
 /*---------------------Fin de encabezado y logo-------------------*/
 
-#pie{
+.ferelax  {
     width: 980px;
+    height: 315px;
+    z-index: 5;
+}
+.seccion-2{
+    margin: 3px;
     padding: 15px;
-    
-    margin: auto;
+width :100%;
+
+margin: 0px;
+background:#303030;
 }
 
+.seccion-info{
+    margin: 1px;
+    padding: 15px;
+    width:65%;
+
+
+
+}
+.info-secc {
+    font-family: 'times new roman', times;
+    font-size: large;
+    text-align: left;
+}
+
+.seccion-iz{
+    display: block;
+}
+.seccion-der{
+    width: 26%;
+    float: right;
+}
+/*------------footer-----------------*/
+.footer {
+    float: right;
+    width: 100%;
+    height:80px; /*different*/
+    margin: 0px;
+    background-color:#141414;
+    color:#FFF;
+    padding: 1px ;
+    text-align:center;
+}
+.futer-push{
+    float: right;
+    width: 100%;
+    height:80px; /*different*/
+    margin: 0px;
+background: red;
+
+}
+.redes-sociales{
+    display: inline-flex;
+
+}
+h2.sigueme {
+    float: left;
+    color: #fff;
+    margin: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 200%;
+}
