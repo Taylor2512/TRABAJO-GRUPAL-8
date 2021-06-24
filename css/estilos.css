@@ -1,5 +1,5 @@
 /* Menu*/
-*{/* selector universal*/
+*{/* selector universal-MONTENEGRO ARELLANO JHONN*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,7 +8,7 @@
 .menu{
     background: #212222;
 }
-.menu ul {/*selector por clase*/
+.menu ul {/*selector por clase-MONTENEGRO ARELLANO JHON*/
 list-style: none;
 padding: 0;
 width :90%;
@@ -20,7 +20,7 @@ margin: 20px;
 display: inline-flex;
 
 }
-a{/*selector de elemento*/
+a{/*selector de elemento- MONTENEGRO ARELLANO JHONN*/
     text-decoration:none;
 
 }
@@ -36,7 +36,7 @@ a{/*selector de elemento*/
 }
 /* Se inserta logo */
 
-#logo{/*selector por id*/
+#logo{/*selector por id-MONTENEGRO ARELLANO JHONN*/
     display: block;
     width: 935px;
     height: 175px;
