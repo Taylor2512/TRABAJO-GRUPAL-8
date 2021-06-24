@@ -16,7 +16,7 @@ max-width:1000px;
 margin: 20px;
 }
 
-.menu  ul li  {
+.menu  ul li  {/*selector descendiente-MONTENEGRO ARELLANO JHON*/
 display: inline-flex;
 
 }
@@ -46,12 +46,12 @@ a{/*selector de elemento- MONTENEGRO ARELLANO JHONN*/
 
 /*---------------------Fin de encabezado y logo-------------------*/
 
-.ferelax  {
+.ferelax  {/*selector por clase-MONTENEGRO ARELLANO JHON*/
     width: 980px;
     height: 315px;
     z-index: 5;
 }
-.seccion-2{
+.seccion-2{/*selector por clase-MONTENEGRO ARELLANO JHON*/
     margin: 3px;
     padding: 15px;
 width :100%;
@@ -60,7 +60,7 @@ margin: 0px;
 background:#303030;
 }
 
-.seccion-info{
+.seccion-info{/*selector por clase-MONTENEGRO ARELLANO JHON*/
     margin: 1px;
     padding: 15px;
     width:65%;
@@ -68,21 +68,21 @@ background:#303030;
 
 
 }
-.info-secc {
+.info-secc {/*selector por clase-MONTENEGRO ARELLANO JHON*/
     font-family: 'times new roman', times;
     font-size: large;
     text-align: left;
 }
 
-.seccion-iz{
+.seccion-iz{/*selector por clase-MONTENEGRO ARELLANO JHON*/
     display: block;
 }
-.seccion-der{
+.seccion-der{/*selector por clase-MONTENEGRO ARELLANO JHON*/
     width: 26%;
     float: right;
 }
 /*------------footer-----------------*/
-.footer {
+.footer {/*selector por clase-MONTENEGRO ARELLANO JHON*/
     float: right;
     width: 100%;
     height:80px; /*different*/
@@ -92,7 +92,7 @@ background:#303030;
     padding: 1px ;
     text-align:center;
 }
-.futer-push{
+.futer-push{/*selector por clase-MONTENEGRO ARELLANO JHON*/
     float: right;
     width: 100%;
     height:80px; /*different*/
@@ -100,11 +100,11 @@ background:#303030;
 background: red;
 
 }
-.redes-sociales{
+.redes-sociales{/*selector por clase-MONTENEGRO ARELLANO JHON*/
     display: inline-flex;
 
 }
-h2.sigueme {
+h2.sigueme {/*selector descendiente -MONTENEGRO ARELLANO JHON*/
     float: left;
     color: #fff;
     margin: 20px;
