@@ -119,7 +119,7 @@ justify-content: center;
   grid-template-rows: 2fr 2fr 2fr 2fr;
 }
 
-#borderim{
+.borderim{
     float:left;
     width:90%;
     height:90%px;
