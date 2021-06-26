@@ -110,7 +110,8 @@ margin-left: 1.7%;
 }
 .contenedor-principal{
 justify-content: center;
-    width:100% ;
+    width:85% ;
+    height: 95%;
 }
 .galeria-fores {
    
@@ -134,8 +135,8 @@ justify-content: center;
     height: 240px;
 }
 
-#borderim:hover{
-    background-color:#c1c7ce;
+.borderim:hover{
+    background-color:#bcc6cf;
 }
 .cuadro{
     text-align: center;
@@ -294,11 +295,7 @@ p:nth-child(1)::first-letter{
     background-color: rgba(12, 0, 34, 0.856);
 }
 
-img:hover{
-    background: darkcyan;
-    background-color: darkcyan;
-    border: 5px solid darkcyan;
-}
+
 
 /*------------FIN JOSUE ROMERO-----------------*/
 
