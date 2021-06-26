@@ -5,10 +5,6 @@
     margin: 0;
     
   }
-  body{
-      background-color: rgb(214, 210, 205);
-      font-size: 18px;
-  }
 .menu{
     background: #212222;
 }
@@ -20,7 +16,7 @@ max-width:1000px;
 margin: 20px;
 }
 
-.menu  ul li  {/*selector descendiente-MONTENEGRO ARELLANO JHON*/
+.menu  ul li  {
 display: inline-flex;
 
 }
@@ -50,18 +46,12 @@ a{/*selector de elemento- MONTENEGRO ARELLANO JHONN*/
 
 /*---------------------Fin de encabezado y logo-------------------*/
 
-.ferelax  {/*selector por clase-MONTENEGRO ARELLANO JHON*/
-    width: 100%;
-    height: 343px;
+.ferelax  {
+    width: 980px;
+    height: 315px;
     z-index: 5;
 }
-.ferelax img{
-    margin: 2px;
-    height: 343px;
-    width: 100%;
-
-}
-.seccion-2{/*selector por clase-MONTENEGRO ARELLANO JHON*/
+.seccion-2{
     margin: 3px;
     padding: 15px;
 width :100%;
@@ -70,17 +60,7 @@ margin: 0px;
 background:#303030;
 }
 
-#seccion3 {
-    display: grid;
-    grid-template-columns: 3fr 1fr ;
-width: 90%;
-margin-left: 5%;
-    justify-content: center;
-
-
-}
-
-.seccion-info{/*selector por clase-MONTENEGRO ARELLANO JHON*/
+.seccion-info{
     margin: 1px;
     padding: 15px;
     width:65%;
@@ -88,66 +68,21 @@ margin-left: 5%;
 
 
 }
-.info-secc {/*selector por clase-MONTENEGRO ARELLANO JHON*/
+.info-secc {
     font-family: 'times new roman', times;
     font-size: large;
     text-align: left;
 }
 
-.seccion-iz{/*selector por clase-MONTENEGRO ARELLANO JHON*/
+.seccion-iz{
     display: block;
 }
-.seccion-der{/*selector por clase-MONTENEGRO ARELLANO JHON*/
+.seccion-der{
     width: 26%;
     float: right;
 }
-.contenedor-cuadros{
-    display: flex;
-justify-content: center;
-width: 97%;
-margin-left: 1.7%;
-
-}
-.contenedor-principal{
-justify-content: center;
-    width:100% ;
-}
-.galeria-fores {
-   
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-template-rows: 2fr 2fr 2fr 2fr;
-}
-
-.borderim{
-    float:left;
-    width:90%;
-    height:90%px;
-    margin: 15px;
-    padding:5px;
-    background-color:#d5d8db ;
-    border: #a5a7aa solid 2px;
-    border-bottom: #f5f7f9 solid 1px;
-}
-.rosa-im{
-    width: 265px;
-    height: 240px;
-}
-
-#borderim:hover{
-    background-color:#c1c7ce;
-}
-.cuadro{
-    text-align: center;
-
-}
-.cuadro2{
-    display: inline-block;
-    width: 100%;
-    height: 450px;
-}
-/*-----------------------------------footer------------------------------------*/
-.footer {/*selector por clase-MONTENEGRO ARELLANO JHON*/
+/*------------footer-----------------*/
+.footer {
     float: right;
     width: 100%;
     height:80px; /*different*/
@@ -157,7 +92,7 @@ justify-content: center;
     padding: 1px ;
     text-align:center;
 }
-.futer-push{/*selector por clase-MONTENEGRO ARELLANO JHON*/
+.futer-push{
     float: right;
     width: 100%;
     height:80px; /*different*/
@@ -165,11 +100,11 @@ justify-content: center;
 background: red;
 
 }
-.redes-sociales{/*selector por clase-MONTENEGRO ARELLANO JHON*/
+.redes-sociales{
     display: inline-flex;
 
 }
-h2.sigueme {/*selector descendiente -MONTENEGRO ARELLANO JHON*/
+h2.sigueme {
     float: left;
     color: #fff;
     margin: 20px;
@@ -177,18 +112,112 @@ h2.sigueme {/*selector descendiente -MONTENEGRO ARELLANO JHON*/
     line-height: 30px;
     font-size: 200%;
 }
-.twitter{
-    display: flex;
-    margin-top: 20px;
-    margin-right: 50px;
-}
-.twitter a{
-    margin: 8px 0px 10px 12px;
-color: antiquewhite;
-}
-#im-tuit{
-    width: 42px;
-    border-radius:20px ;
-    height: 42px;
 
+/*------------CSS JOSUE ROMERO INICIO-----------------*/
+
+#combos_y_arreglos{
+    color: cornsilk;
 }
+
+#Productos_Todos{
+
+    color:rgb(55, 30, 75);
+}
+
+
+p:nth-child(1)::first-letter{  
+    color:green;              
+}
+
+.girasoles {
+
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(229, 168, 66);
+    background-color: rgb(229, 168, 66);
+   
+}
+
+
+.orquideas {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(178, 199, 106);
+    background-color: rgb(178, 199, 106);
+}
+
+.rosas {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(167, 25, 6);
+    background-color: rgb(167, 25, 6);
+}
+
+.lirios {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(242, 220, 205);
+    background-color: rgb(242, 220, 205);
+}
+
+.amor {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(145, 1, 1);
+    background-color: rgb(145, 1, 1);
+}
+
+.mama {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(95, 2, 90);
+    background-color: rgb(114, 0, 108);
+}
+
+.papa {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(25, 1, 92);
+    background-color: rgb(25, 1, 92);
+}
+
+.mimo
+ {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+.funebre{
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgba(12, 0, 34, 0.856);
+    background-color: rgba(12, 0, 34, 0.856);
+}
+
+img:hover{
+    background: darkcyan;
+    background-color: darkcyan;
+    border: 5px solid darkcyan;
+}
+
+/*------------FIN JOSUE ROMERO-----------------*/
+
