@@ -124,10 +124,12 @@ h2.sigueme {
     color:rgb(55, 30, 75);
 }
 
-
+/*
 p:nth-child(1)::first-letter{  
     color:green;              
 }
+*/
+
 
 .girasoles {
 
@@ -213,7 +215,7 @@ p:nth-child(1)::first-letter{
     background-color: rgba(12, 0, 34, 0.856);
 }
 
-img:hover{
+#Productos_Todos img:hover{
     background: darkcyan;
     background-color: darkcyan;
     border: 5px solid darkcyan;
