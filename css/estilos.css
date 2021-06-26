@@ -115,9 +115,109 @@ h2.sigueme {
 
 /*------------CSS JOSUE ROMERO INICIO-----------------*/
 
+#combos_y_arreglos{
+    color: cornsilk;
+}
+
 #Productos_Todos{
 
-    color:navy;
+    color:rgb(55, 30, 75);
 }
+
+
+p:nth-child(1)::first-letter{  
+    color:green;              
+}
+
+.girasoles {
+
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(229, 168, 66);
+    background-color: rgb(229, 168, 66);
+   
+}
+
+
+.orquideas {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(178, 199, 106);
+    background-color: rgb(178, 199, 106);
+}
+
+.rosas {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(167, 25, 6);
+    background-color: rgb(167, 25, 6);
+}
+
+.lirios {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(242, 220, 205);
+    background-color: rgb(242, 220, 205);
+}
+
+.amor {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(145, 1, 1);
+    background-color: rgb(145, 1, 1);
+}
+
+.mama {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(95, 2, 90);
+    background-color: rgb(114, 0, 108);
+}
+
+.papa {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(25, 1, 92);
+    background-color: rgb(25, 1, 92);
+}
+
+.mimo
+ {
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+.funebre{
+    /*border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    border: 5px solid rgba(12, 0, 34, 0.856);
+    background-color: rgba(12, 0, 34, 0.856);
+}
+
+img:hover{
+    background: darkcyan;
+    background-color: darkcyan;
+    border: 5px solid darkcyan;
+}
+
 /*------------FIN JOSUE ROMERO-----------------*/
 
