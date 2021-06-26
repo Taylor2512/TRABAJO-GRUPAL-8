@@ -177,3 +177,18 @@ h2.sigueme {/*selector descendiente -MONTENEGRO ARELLANO JHON*/
     line-height: 30px;
     font-size: 200%;
 }
+.twitter{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.twitter a{
+    margin: 8px 0px 10px 12px;
+color: antiquewhite;
+}
+#im-tuit{
+    width: 42px;
+    border-radius:20px ;
+    height: 42px;
+
+}
