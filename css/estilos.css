@@ -5,7 +5,7 @@
     margin: 0;
     
   }
-  body{
+  body{/*SELECTOR DE ELEMENTO*/
       background-color: rgb(214, 210, 205);
       font-size: 18px;
   }
@@ -29,7 +29,7 @@ a{/*selector de elemento- MONTENEGRO ARELLANO JHONN*/
 
 }
 
-.menu ul li a{
+.menu ul li a{ /*selector descendiente*/
     color:#FFFFFF;
     padding: 15px;
 }
@@ -247,7 +247,7 @@ background: red;
     border-right: 1.5px solid;
  
 }
-.twitter a{
+.twitter a{/* selector descendiente*/
     margin: 8px 15px 10px 12px;
 color: antiquewhite;
 
