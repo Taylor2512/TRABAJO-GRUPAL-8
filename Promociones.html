@@ -5,14 +5,39 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
 	<style>
-		.h1,h2,h3,h4{
+		.subtitulo,.promociones,#alerta_de_compras{
 			text-align: center;
 		}
+		h2{
+			color:#F95416;
+			font-size: 32px;
+		}
+		h2 strong{
+			color:#3DEC82;
+			font-size:24px;
+		}
+		h3{
+			font-size: 12px;
+			font-style:Italic;
+		}
+		h3 span{
+			font-size: 15px;
+		}
+		h3 strong{
+			font-size: 18px;
+		}
 		.promociones{
-			border:1px solid green;
-			border-radius: 30px;
+			border:2px solid green;
+			border-radius: 35px;
 			display: inline-block;
-			width:30%; 
+			width:33%;
+		}
+		div em{
+			font-size:20px;
+		}
+		#contenido_de_promociones{
+			width:90%;
+			margin:auto;
 		}
 		</style>
 </head>
@@ -22,54 +47,68 @@
 			<img id="logo"  src="img/logo.png" alt="logo">
         </div>   
     </header>          
-        <nav class="menu">
-            <ul>
+	<nav class="menu">
+		<ul>
 
-                <li class="nav_li"> <a href="Index.html">HOME</a>  </li>
-                <li class="nav_li"> <a href="Flores-y-mismo.html">FLORES Y MIMOS</a></li>
-                <li class="nav_li"> <a href="Catalogo.html">CATÁLOGO</a> </li>
-                <li class="nav_li"> <a href="Pedidos.html">PEDIDOS</a>  </li>
-                <li class="nav_li"> <a href="Promociones.html">PROMOCIONES</a></li>
-                <li class="nav_li"> <a href="Noticias.html">NOTICIAS</a> </li>
-                <li class="nav_li"> <a href="Contacto.html">CONTACTO</a>  </li>
+			<li class="nav_li"> <a href="Index.html">HOME</a>  </li>
+			<li class="nav_li"> <a href="Flores-y-mismo.html">FLORES Y MIMOS</a></li>
+			<li class="nav_li"> <a href="Catalogo.html">CATÁLOGO</a> </li>
+			<li class="nav_li"> <a href="Pedidos.html">PEDIDOS</a>  </li>
+			<li class="nav_li"> <a href="Promociones.html">PROMOCIONES</a></li>
+			<li class="nav_li"> <a href="Noticias.html">NOTICIAS</a> </li>
+			<li class="nav_li"> <a href="Contacto.html">CONTACTO</a>  </li>
 
 
-            </ul>
-        </nav>
-		<div><h5 class="subtitulo"><span style="color: #3DEC82; font-size:40px;">Promociones por Temporada</span></h5></div>
-		<div style="text-align: center;"> </div>
+		</ul>
+	</nav>
+		<div><h4 class="subtitulo"><span style="background:#3DEC82; color: white; font-size:40px;">Promociones por Temporada</span></h4></div>
+		<div> </div><div> </div>
+		<div id="contenido_de_promociones">
 		<div class="promociones">
-		<h1><span style="color: #F95416;">Francesillas-Tulipanes:</span></h1>
-		<h2><span style="color: #3DEC82; font-size:24px"><strong>Promoción 1</strong></span></h2>
-		<h4><p><img class="Flores" src="img/Tulipanes-Francesillas.jpg" height="500px" width="300px" alt="" /><img class="Mimos" src="img/Mimo_1.jfif" height="240px" width="300px" alt="" /></p></h4>
-		<h3><span><strong>Servicio de Entrega con mimo a mitad de precio</strong></span></h3>
-		<h4>Por la adquisición de 4 arreglos, obtiene un <b>5to</b> totalmente <b>gratis</b>.</h4>
-		<h4>Precio de temporada:          $80</h4>
-		<h4>Precio normal:          $100</h4>
-		</div>
-		<div class="promociones">
-		<h1><span style="color: #F95416;">Dalias-Calas:</span></h1>
-		<h2><span style="color: #3DEC82; font-size:24px"><strong>Promoción 2</strong></span></h2>
-		<h4><p><img class="Flores" src="img/Dalias-Calas.jpg" height="400px" width="300px" alt="" /><img class="Mimos" src="img/Mimo_2.jfif" height="320px" width="360px" alt="" /></p></h4>
-		<h3> <strong>Servicio de Entrega con mimo</strong></h3>
-		<h4>Por la adquisición de 2 arreglos, la compra del <b>3ero</b> le sale a <b>mitad de precio</b>.</h4>
-		<h4>Precio de temporada:          $37,5</h4>
-		<h4><span style="font-size:14px;">Precio normal:          $45</span></h4>
-		</div>
-		<div class="promociones">
-		<div style="text-align: center;"> </div>
-		<h1><span style="color: #F95416;">Claveles-Crisantemos:</span></h1>
-		<h2><span style="color: #3DEC82; font-size:24px"><strong>Promoción 3</strong></span></h2>
-		<h4><p><img class="Flores" src="img/Claveles-Crisantemos.jpg" height="400px" width="300px" alt="" /><img class="Mimos" src="img/Mimo_3.jfif" height="300px" width="200px"  alt="" /></p></h4>
-		<h3> <strong>Servicio de Entrega con mimo</strong></h3>
-		<h4>Por la adquisición de 10 arreglos, obtiene un <b>Dscto del 70%</b> en los servicios del mimo.</h4>
-		<h4>Precio de temporada:          $170</h4>
-		<h4><span style="font-size:14px;">Precio normal:          $310</span></h4>
-		</div>
-		<p></p>
 		<div> </div>
-		<div style="text-align: center;"><em><strong>Todas las promociones aplican restricciones</strong></em></div> 
- 
+		<h2>Francesillas-Tulipanes:</h2>
+		<h2><strong>Promoción 1</strong></h2>
+		<div> </div>
+		<img class="Flores" src="img/Tulipanes-Francesillas.jpg" style="height:500px; width:300px" alt="" /><img class="Mimos" src="img/Mimo_1.jfif" style="height:240px; width:300px" alt="" />
+		<br>
+		<h3><strong>Servicio de Entrega con mimo a mitad de precio</strong></h3>
+		<div> </div>
+		<h3>Por la adquisición de 4 arreglos, obtiene un <b>5to</b> totalmente <b>gratis</b>.</h3>
+		<div> </div>
+		<h3><span>Precio de temporada:          $80</span></h3>
+		<h3>Precio normal:                              $100</h3>
+		<div> </div>
+		</div>
+		<div class="promociones">
+		<div style="text-align: center;"> </div>
+		<h2>Dalias-Calas:</h2>
+		<h2><strong>Promoción 2</strong></h2>
+		<div> </div>
+		<img class="Flores" src="img/Dalias-Calas.jpg" style="height:420px; width:300px" alt="" /><img class="Mimos" src="img/Mimo_2.jfif" style="height:320px; width:360px" alt="" />
+		<h3><strong>Servicio de Entrega con mimo</strong></h3>
+		<div> </div>
+		<h3>Por la adquisición de 2 arreglos, la compra del <b>3ero</b> le sale a <b>mitad de precio</b>.</h3>
+		<div> </div>
+		<h3><span>Precio de temporada:          $37,5</span></h3>
+		<h3>Precio normal:                              $45</h3>
+		<div> </div>
+		</div>
+		<div class="promociones">
+		<div style="text-align: center;"> </div>
+		<h2>Claveles-Crisantemos:</h2>
+		<h2><strong>Promoción 3</strong></h2>
+		<div> </div>
+		<img class="Flores" src="img/Claveles-Crisantemos.jpg" style="height:410px; width:300px" alt="" /><img class="Mimos" src="img/Mimo_3.jfif" style="height:330px; width:200px"  alt="" />
+		<br><h3><strong>Servicio de Entrega con mimo</strong></h3>
+		<div> </div>
+		<h3>Por la adquisición de 10 arreglos, obtiene un <b>DSCTO del 70%</b> en los servicios del mimo.</h3>
+		<div> </div>
+		<h3><span>Precio de temporada:          $170</span></h3>
+		<h3>Precio normal:                              $310</h3>
+		<div> </div>
+		</div>
+		<div id="alerta_de_compras"><em><strong><br>Todas las promociones aplican restricciones</strong></em></div>
+		</div>		
     <section>
         <h1>Descripcion de la empresa</h1>
         <p> Somos una empresa desarrolladora de ropa que ayuda a otros fabricar vestimenta que cumpla con sus necesidades y gustos... </p>
