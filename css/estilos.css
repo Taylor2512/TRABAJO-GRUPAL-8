@@ -194,6 +194,11 @@ justify-content: center;
     width: 100%;
     height: 450px;
 }
+.icon-social img:hover{
+    background: darkcyan;
+    background-color: darkcyan;
+    border: 5px solid darkcyan;
+}
 /*-----------------------------------footer------------------------------------*/
 .footer {/*selector por clase-MONTENEGRO ARELLANO JHON*/
     float: right;
