@@ -72,7 +72,8 @@ a{/*selector de elemento- MONTENEGRO ARELLANO JHONN*/
     border: 2px solid rgb(2, 3, 3);
     border-bottom: 3px double rgb(4, 49, 95);
     width:85% ;
-    height: 300px;
+    height: 380px;
+    background-color:hsla(0, 0%, 100%, 0.808);
 }
 .incon-cuadro{
  
