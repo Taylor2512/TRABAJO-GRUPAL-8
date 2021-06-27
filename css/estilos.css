@@ -50,6 +50,51 @@ a{/*selector de elemento- MONTENEGRO ARELLANO JHONN*/
 
 /*---------------------Fin de encabezado y logo-------------------*/
 
+
+.icon-s{
+    width: 35px;
+    height: 38px;
+    margin-top: 20px;
+ 
+  
+}
+.icono-n{
+    padding: 30px 25px 20px 20px;
+    border-radius: 100px;
+
+ 
+}
+.icono-n:hover{
+    background-color: #a5a7aa;
+    color:#FFFFFF:
+}
+.border-conta{
+    border: 2px solid rgb(2, 3, 3);
+    border-bottom: 3px double rgb(4, 49, 95);
+    width:85% ;
+    height: 380px;
+    background-color:hsla(0, 0%, 100%, 0.808);
+}
+.incon-cuadro{
+ 
+    margin-top:  20px; 
+    margin-bottom:  20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    position: relative;
+}
+.incon-cuadro label{
+font-size: 10pt;
+padding: 10px;
+text-transform: uppercase;
+position: absolute;
+left: 20%;
+top: 6%;
+transform: translateX(50%) translateY(50%);
+}
+.incon-cuadro label:hover{
+    background-color:rgb(126, 138, 150);
+}
 .ferelax  {/*selector por clase-MONTENEGRO ARELLANO JHON*/
     width: 100%;
     height: 343px;
@@ -63,7 +108,7 @@ a{/*selector de elemento- MONTENEGRO ARELLANO JHONN*/
 }
 .seccion-2{/*selector por clase-MONTENEGRO ARELLANO JHON*/
     margin: 3px;
-    padding: 15px;
+    padding: 30px;
 width :100%;
 
 margin: 0px;
@@ -81,6 +126,8 @@ margin-left: 5%;
 }
 
 .seccion-info{/*selector por clase-MONTENEGRO ARELLANO JHON*/
+    position: absolute;
+    left: 3.8%;
     margin: 1px;
     padding: 15px;
     width:65%;
@@ -110,7 +157,8 @@ margin-left: 1.7%;
 }
 .contenedor-principal{
 justify-content: center;
-    width:100% ;
+    width:85% ;
+    height: 95%;
 }
 .galeria-fores {
    
@@ -134,8 +182,8 @@ justify-content: center;
     height: 240px;
 }
 
-#borderim:hover{
-    background-color:#c1c7ce;
+.borderim:hover{
+    background-color:#bcc6cf;
 }
 .cuadro{
     text-align: center;
@@ -154,8 +202,13 @@ justify-content: center;
     margin: 0px;
     background-color:#141414;
     color:#FFF;
-    padding: 1px ;
+    padding-bottom: 25px ;
     text-align:center;
+}
+.footer p{
+    padding: 6px;
+    background-color:#141414;
+    padding-bottom: 3px;
 }
 .futer-push{/*selector por clase-MONTENEGRO ARELLANO JHON*/
     float: right;
@@ -169,30 +222,42 @@ background: red;
     display: inline-flex;
 
 }
-h2.sigueme {/*selector descendiente -MONTENEGRO ARELLANO JHON*/
+#sigueme {/*selector descendiente -MONTENEGRO ARELLANO JHON*/
     float: left;
     color: #fff;
     margin: 20px;
     font-weight: normal;
     line-height: 30px;
     font-size: 200%;
+    margin-right: 25px;
+    padding-right: 35px;
 }
 .twitter{
-    display: flex;
-    margin-top: 20px;
-    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    padding-right:25px ;
+    padding-top: 20px;
+    padding-bottom:12px;
+  
+    border-right: 1.5px solid;
+ 
 }
 .twitter a{
-    margin: 8px 0px 10px 12px;
+    margin: 8px 15px 10px 12px;
 color: antiquewhite;
+
 }
-#im-tuit{
+.twitter:hover{
+    background-color:#a5a7aa;
+  
+}
+.im-tuit{
     width: 42px;
     border-radius:20px ;
     height: 42px;
+    margin-left: 12px;
 
 }
-
 
 /*------------CSS JOSUE ROMERO INICIO-----------------*/
 
