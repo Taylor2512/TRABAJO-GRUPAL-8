@@ -1,13 +1,8 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* https://github.com/Taylor2512/TRABAJO-GRUPAL-8/blob/Master/css/estilos.css */
 
 /* Document
    ========================================================================== */
-   *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    
-  }
+   
   /**
    * 1. Correct the line height in all browsers.
    * 2. Prevent adjustments of font size after orientation changes in iOS.
